@@ -38,3 +38,19 @@ The application features a dark-themed design with custom colors for a visually 
 - Add task prioritization and categorization features.
 - Enhance responsiveness for a better experience on various devices.
 
+## Clone Repository
+
+To clone this repository and run the To-Do List web app locally, follow these steps:
+
+1. Open your terminal or command prompt.
+
+2. Navigate to the directory where you want to clone the repository.
+
+3. Run the following command:
+
+    ```bash
+    git clone https://github.com/saadhussain01306/to-do-list2.git
+    ```
+## Website
+
+Visit the To-Do List Web App [here](https://saadhussain01306.github.io/to-do-list2/).
