@@ -1,53 +1,40 @@
+# To-Do List Web App
 
+## Overview
 
-    <h1>To-Do List Web App</h1>
+This repository contains the source code for a simple To-Do List web application. The application allows users to add tasks, edit existing tasks, and delete tasks. The interface is designed with a clean and modern look using HTML, CSS, and JavaScript.
 
-    <h2>Overview</h2>
+## Files
 
-    <p>This repository contains the source code for a simple To-Do List web application. The application allows users to add tasks, edit existing tasks, and delete tasks. The interface is designed with a clean and modern look using HTML, CSS, and JavaScript.</p>
+### 1. HTML File
 
-    <h2>Files</h2>
+- **File Name:** `index.html`
+- **Description:** The main HTML file that defines the structure of the web page. It includes sections for the header, task input form, task list display, and clear-all button.
 
-    <h3>1. HTML File</h3>
+### 2. CSS File
 
-    <p><strong>File Name:</strong> <code>index.html</code></p>
-    <p><strong>Description:</strong> The main HTML file that defines the structure of the web page. It includes sections for the header, task input form, task list display, and clear-all button.</p>
+- **File Name:** `style.css`
+- **Description:** The CSS file that defines the styling of the web page. It uses custom properties for color theming and includes styles for the header, task input form, task list, and task actions.
 
-    <h3>2. CSS File</h3>
+### 3. JavaScript File
 
-    <p><strong>File Name:</strong> <code>style.css</code></p>
-    <p><strong>Description:</strong> The CSS file that defines the styling of the web page. It uses custom properties for color theming and includes styles for the header, task input form, task list, and task actions.</p>
+- **File Name:** `main.js`
+- **Description:** The JavaScript file that handles the dynamic functionality of the To-Do List. It captures user input, updates the task list array, creates and modifies DOM elements for tasks, and includes event listeners for task editing, deletion, and clear-all functionality.
 
-    <h3>3. JavaScript File</h3>
+## Usage
 
-    <p><strong>File Name:</strong> <code>main.js</code></p>
-    <p><strong>Description:</strong> The JavaScript file that handles the dynamic functionality of the To-Do List. It captures user input, updates the task list array, creates and modifies DOM elements for tasks, and includes event listeners for task editing, deletion, and clear-all functionality.</p>
+1. Open the `index.html` file in a web browser to launch the To-Do List application.
+2. Enter a task in the input field and click "Add Task" to add it to the list.
+3. Each task in the list can be edited or deleted using the respective buttons.
+4. The "Clear All" button removes all tasks from the list.
 
-    <h2>Usage</h2>
+## Styling
 
-    <ol>
-        <li>Open the <code>index.html</code> file in a web browser to launch the To-Do List application.</li>
-        <li>Enter a task in the input field and click "Add Task" to add it to the list.</li>
-        <li>Each task in the list can be edited or deleted using the respective buttons.</li>
-        <li>The "Clear All" button removes all tasks from the list.</li>
-    </ol>
+The application features a dark-themed design with custom colors for a visually appealing user interface. The use of gradients and transitions enhances the overall user experience.
 
-    <h2>Styling</h2>
+## Future Improvements
 
-    <p>The application features a dark-themed design with custom colors for a visually appealing user interface. The use of gradients and transitions enhances the overall user experience.</p>
+- Implement local storage to persist tasks even after page refresh.
+- Add task prioritization and categorization features.
+- Enhance responsiveness for a better experience on various devices.
 
-    <h2>Future Improvements</h2>
-
-    <ul>
-        <li>Implement local storage to persist tasks even after page refresh.</li>
-        <li>Add task prioritization and categorization features.</li>
-        <li>Enhance responsiveness for a better experience on various devices.</li>
-    </ul>
-
-    <h2>Author</h2>
-
-    <p>[Your Name]</p>
-
-    <h2>License</h2>
-
-    <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
